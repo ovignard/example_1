@@ -3,8 +3,8 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.example.maven-project</groupId>
-  <artifactId>maven-project</artifactId>
+  <groupId>com.example.example_1</groupId>
+  <artifactId>example_1</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Maven Project</name>
@@ -25,7 +25,7 @@
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
+      <url>file:///tmp/example_1-site</url>
     </site>
   </distributionManagement>
 
@@ -112,7 +112,7 @@
         </plugin>
 
         <plugin>
-          <artifactId>maven-project-info-reports-plugin</artifactId>
+          <artifactId>example_1-info-reports-plugin</artifactId>
           <version>2.4</version>
         </plugin>
 
@@ -207,10 +207,10 @@
   </dependencyManagement>
 
   <scm>
-    <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
-    <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
+    <connection>scm:git:git@github.com:ovignard/example_1.git</connection>
+    <developerConnection>scm:git:git@github.com:ovignard/example_1.git</developerConnection>
     <tag>HEAD</tag>
-    <url>http://github.com/jleetutorial/maven-project</url>
+    <url>http://github.com/ovignard/example_1</url>
   </scm>
 
   <prerequisites>
